@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa17bfd4-6c75-451b-8dbf-5fd5503c9118">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ОчередьОбработкиСообщений</content>
+  <content>Catalog.ТелеграмЧаты</content>
+  <content>Catalog.УчетныеЗаписиТелеграм</content>
+</mdclass:Subsystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e01f745-0cc0-48c9-b814-125810c87b7f">
+  <producedTypes>
+    <objectType typeId="960e7087-5567-425c-b9c6-dbf69cd55f34" valueTypeId="f9a3b2fd-96d8-4cde-9b3a-57d6fce3d245"/>
+    <refType typeId="6086fff8-1864-463e-b2cd-39960cb7188f" valueTypeId="f9afb471-7c1c-466d-90b8-11dd6d46fc64"/>
+    <selectionType typeId="828ec32b-60a0-490a-be49-fe31b6fbc33b" valueTypeId="d3986350-c3a8-4d86-8417-98ebdeb976d1"/>
+    <listType typeId="cdfd34e2-4773-466e-8f58-63d49f44d26a" valueTypeId="f4816e18-accf-4376-890b-7a984d1e6fc8"/>
+    <managerType typeId="f991f747-77fa-44a9-9cc1-8422907042d2" valueTypeId="71be9c78-a2af-4ad7-a923-a7bf1fcd9110"/>
+  </producedTypes>
+  <name>ТелеграмЧаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм чаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТелеграмЧаты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТелеграмЧаты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Телеграм чат</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>21</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="0e25248e-114f-4580-92c7-b469e4424385">
+    <name>Тип</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

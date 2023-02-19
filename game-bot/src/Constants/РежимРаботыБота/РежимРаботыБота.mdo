@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45749fb0-bdd7-4469-bb8e-fa3e55dc8e20">
+  <producedTypes>
+    <managerType typeId="270b0f48-a3bc-4911-9a2c-6227fb1724b8" valueTypeId="49ce3e78-668d-4d09-baf4-eb1971b1ceb9"/>
+    <valueManagerType typeId="313f3ce2-ea80-4780-bd67-648c55f5176c" valueTypeId="0b7d1a6d-f760-474a-b959-c0cb6e1f12a2"/>
+    <valueKeyType typeId="f982c8e8-9411-46f8-ad95-f4af5d1009f7" valueTypeId="ae23852a-5850-4fe2-8153-0d4f91a78798"/>
+  </producedTypes>
+  <name>РежимРаботыБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим работы бота</value>
+  </synonym>
+  <type>
+    <types>EnumRef.РежимРаботыБота</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

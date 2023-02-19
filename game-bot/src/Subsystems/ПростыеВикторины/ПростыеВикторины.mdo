@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd3a8ad9-95b2-44e7-ad49-54b2070ca655">
+  <name>ПростыеВикторины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Простые викторины</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВопросыПростойВикторины</content>
+</mdclass:Subsystem>

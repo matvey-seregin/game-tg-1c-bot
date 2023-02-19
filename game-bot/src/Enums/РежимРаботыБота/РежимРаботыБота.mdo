@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2346581e-54e9-44e9-a89a-608023b35f7f">
+  <producedTypes>
+    <refType typeId="497fd2f4-4592-4406-b142-49be8a724fcf" valueTypeId="3cd9b2d7-b4e0-406f-970b-85e8563016a8"/>
+    <listType typeId="2521a3f9-a342-4667-b689-bd2525d79371" valueTypeId="985d1886-e800-4b0b-94f9-07961151329e"/>
+    <managerType typeId="f4947b80-92c1-4f4b-a416-7859496fd80f" valueTypeId="26c77ce3-9300-4890-b77b-8f493a049d7b"/>
+  </producedTypes>
+  <name>РежимРаботыБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим работы бота</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79860170-6712-4444-a6fa-61ed908c9aa2">
+    <name>Эхо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эхо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2f5d0fa9-b7d7-4f80-91a5-29806e5eff18">
+    <name>ПростаяВикторина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простая викторина</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

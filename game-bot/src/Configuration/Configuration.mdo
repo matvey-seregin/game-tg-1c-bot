@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02ce4f3b-212b-47db-8cd1-3f4965bb2459">
+  <name>ИгровойБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Игровой бот</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="3e770eb9-32b4-44c5-aeb6-dd1dbd569f1e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="0a1977b0-7831-41a3-a091-b73ecdab5fbf"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bf918862-7dc0-4d8e-aed3-e8a86ab66e77"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="6fe19f46-3141-448e-b1bf-284c674b5d26"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="42a1fb45-e84c-4b12-9b54-3d6bd8ea2bb7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="b65dbe6e-d424-408b-87f3-0474ad63191d"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d111b83e-24d7-48d8-b461-f0978ce77a6e"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Серегин Матвей</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="01028dc7-16ea-4853-a5a9-741ae4c201f0">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.ПростыеВикторины</subsystems>
+  <commonModules>CommonModule.ИнтеграцияТелеграм</commonModules>
+  <commonModules>CommonModule.ИнтеграцияТелеграмПереопределяемый</commonModules>
+  <commonModules>CommonModule.ИнтеграцияТелеграмСлужебный</commonModules>
+  <commonModules>CommonModule.ИнтеграцияТелеграмСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.СериализацияДанных</commonModules>
+  <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
+  <commonModules>CommonModule.ТелеграмЭхо</commonModules>
+  <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
+  <constants>Constant.РежимРаботыБота</constants>
+  <constants>Constant.ТокенТелеграмБота</constants>
+  <catalogs>Catalog.ВопросыПростойВикторины</catalogs>
+  <catalogs>Catalog.ОчередьОбработкиСообщений</catalogs>
+  <catalogs>Catalog.ТелеграмЧаты</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
+  <enums>Enum.РежимРаботыБота</enums>
+  <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
+</mdclass:Configuration>

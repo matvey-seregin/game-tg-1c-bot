@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="206a873d-f9d2-437f-8fec-b4c29d3910c6">
+  <name>ТелеграмПростаяВикторина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм простая викторина</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
