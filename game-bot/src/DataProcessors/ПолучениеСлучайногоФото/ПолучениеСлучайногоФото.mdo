@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3938930c-f695-45b1-b478-81792fb7049a">
+  <producedTypes>
+    <objectType typeId="9614c0b5-9871-44f4-b04c-08a4c044ba45" valueTypeId="730790d1-d239-4863-969a-311316abc6b7"/>
+    <managerType typeId="edbffd93-0dd3-4827-ae83-859a43de9e57" valueTypeId="07cf79f4-9ecb-4f8f-9ebd-d677530cf8cc"/>
+  </producedTypes>
+  <name>ПолучениеСлучайногоФото</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение случайного фото</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучениеСлучайногоФото.Form.Форма</defaultForm>
+  <forms uuid="6b9c58d3-25c9-40d9-be16-a90ec91a6f6e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
