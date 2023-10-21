@@ -33,4 +33,11 @@
       <value>Случайная фотография</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="1cf133c7-3152-48f7-9c0a-09a8cc540d63">
+    <name>НашаПрогаМарс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наша прога марс</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
