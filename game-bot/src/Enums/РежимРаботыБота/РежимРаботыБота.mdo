@@ -33,4 +33,11 @@
       <value>Случайная фотография</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="95a587f7-06a6-4e73-9e53-48e19140467e">
+    <name>КурсыВалют</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсы валют</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
