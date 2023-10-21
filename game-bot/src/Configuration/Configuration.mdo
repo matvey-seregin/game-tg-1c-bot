@@ -55,6 +55,7 @@
   <commonModules>CommonModule.ТелеграмКурсыВалют</commonModules>
   <commonModules>CommonModule.ТелеграмМарсКартинка</commonModules>
   <commonModules>CommonModule.ТелеграмПогодаАрх</commonModules>
+  <commonModules>CommonModule.ТелеграмНаса</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
@@ -73,4 +74,5 @@
   <dataProcessors>DataProcessor.ПолучениеПогоды</dataProcessors>
   <dataProcessors>DataProcessor.ПолучениеПогодыАрх</dataProcessors>
   <dataProcessors>DataProcessor.ПолучениеСлучайногоФото</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеФотоНаса</dataProcessors>
 </mdclass:Configuration>
