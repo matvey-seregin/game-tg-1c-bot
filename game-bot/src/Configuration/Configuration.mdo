@@ -28,7 +28,7 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <copyright>
     <key>ru</key>
-    <value>Попов Касьянов</value>
+    <value>Серегин Матвей</value>
   </copyright>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
@@ -52,7 +52,6 @@
   <commonModules>CommonModule.ИнтеграцияТелеграмСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СериализацияДанных</commonModules>
-  <commonModules>CommonModule.ТелеграмКартинка</commonModules>
   <commonModules>CommonModule.ТелеграмМарсКартинка</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
