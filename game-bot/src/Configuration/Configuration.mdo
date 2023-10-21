@@ -52,9 +52,11 @@
   <commonModules>CommonModule.ИнтеграцияТелеграмСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СериализацияДанных</commonModules>
+  <commonModules>CommonModule.ТелеграмКурсыВалют</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
+  <wsReferences>WSReference.DailyInfo</wsReferences>
   <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
   <constants>Constant.РежимРаботыБота</constants>
   <constants>Constant.ТокенСервисаПоискаФото</constants>
