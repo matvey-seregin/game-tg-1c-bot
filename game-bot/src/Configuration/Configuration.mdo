@@ -54,8 +54,8 @@
   <commonModules>CommonModule.СериализацияДанных</commonModules>
   <commonModules>CommonModule.ТелеграмКурсыВалют</commonModules>
   <commonModules>CommonModule.ТелеграмМарсКартинка</commonModules>
-  <commonModules>CommonModule.ТелеграмПогодаАрх</commonModules>
   <commonModules>CommonModule.ТелеграмНаса</commonModules>
+  <commonModules>CommonModule.ТелеграмПогодаАрх</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
