@@ -10,5 +10,4 @@
   <content>Catalog.ОчередьОбработкиСообщений</content>
   <content>Catalog.ТелеграмЧаты</content>
   <content>Catalog.УчетныеЗаписиТелеграм</content>
-  <content>DataProcessor.ЗагрузкаКурсовВалютЦБР</content>
 </mdclass:Subsystem>

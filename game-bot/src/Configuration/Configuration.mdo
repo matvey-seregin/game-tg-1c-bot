@@ -66,7 +66,6 @@
   <catalogs>Catalog.ТелеграмЧаты</catalogs>
   <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
   <enums>Enum.РежимРаботыБота</enums>
-  <dataProcessors>DataProcessor.ЗагрузкаКурсовВалютЦБР</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
   <dataProcessors>DataProcessor.ПолучениеСлучайногоФото</dataProcessors>
 </mdclass:Configuration>
