@@ -26,4 +26,11 @@
       <value>Простая викторина</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="2b629326-ffa6-4d5f-917a-05e34406a8a9">
+    <name>ПогодаАрх</name>
+    <synonym>
+      <key>ru</key>
+      <value>Погода арх</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

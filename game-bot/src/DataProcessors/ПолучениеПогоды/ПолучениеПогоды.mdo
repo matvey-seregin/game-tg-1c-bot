@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eab94040-82f4-474e-a636-878b669d56e3">
+  <producedTypes>
+    <objectType typeId="54337247-0537-42fb-ad9e-beb4352b0858" valueTypeId="48e9f404-3c2c-42bb-a738-eb69783e4942"/>
+    <managerType typeId="9b975b49-2a7b-48ca-89a2-fd0bc2149afa" valueTypeId="126c67a8-ce0f-4dbe-a1c7-b79156955a76"/>
+  </producedTypes>
+  <name>ПолучениеПогоды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получение погоды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучениеПогоды.Form.Форма</defaultForm>
+  <forms uuid="fdf7990a-8bae-4853-9a30-cebee0f344e3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
