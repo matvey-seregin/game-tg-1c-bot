@@ -33,4 +33,25 @@
       <value>Погода арх</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="19a8e417-792c-4124-bd1c-108c604e8308">
+    <name>СлучайнаяФотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Случайная фотография</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95a587f7-06a6-4e73-9e53-48e19140467e">
+    <name>КурсыВалют</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсы валют</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1cf133c7-3152-48f7-9c0a-09a8cc540d63">
+    <name>НашаПрогаМарс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наша прога марс</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

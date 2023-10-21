@@ -7,5 +7,6 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПолучениеСлучайногоФото</content>
   <content>DataProcessor.ПолучениеПогодыАрх</content>
 </mdclass:Subsystem>
