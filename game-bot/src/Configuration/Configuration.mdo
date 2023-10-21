@@ -52,9 +52,9 @@
   <commonModules>CommonModule.ИнтеграцияТелеграмСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СериализацияДанных</commonModules>
-  <commonModules>CommonModule.ТелеграмНаса</commonModules>
   <commonModules>CommonModule.ТелеграмКурсыВалют</commonModules>
   <commonModules>CommonModule.ТелеграмМарсКартинка</commonModules>
+  <commonModules>CommonModule.ТелеграмНаса</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
