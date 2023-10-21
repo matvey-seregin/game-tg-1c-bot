@@ -33,4 +33,11 @@
       <value>Телеграм наса</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="19a8e417-792c-4124-bd1c-108c604e8308">
+    <name>СлучайнаяФотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Случайная фотография</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

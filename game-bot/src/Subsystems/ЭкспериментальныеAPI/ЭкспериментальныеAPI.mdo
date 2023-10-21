@@ -8,4 +8,5 @@
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>DataProcessor.ПолучениеСлучайногоФото</content>
+  <content>DataProcessor.ПолучениеФотоНаса</content>
 </mdclass:Subsystem>

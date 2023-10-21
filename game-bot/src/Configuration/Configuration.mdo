@@ -54,6 +54,7 @@
   <commonModules>CommonModule.СериализацияДанных</commonModules>
   <commonModules>CommonModule.ТелеграмНаса</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
+  <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
   <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
   <constants>Constant.РежимРаботыБота</constants>
@@ -66,4 +67,5 @@
   <enums>Enum.РежимРаботыБота</enums>
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
   <dataProcessors>DataProcessor.ПолучениеСлучайногоФото</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеФотоНаса</dataProcessors>
 </mdclass:Configuration>
