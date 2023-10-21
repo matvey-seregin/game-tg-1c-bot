@@ -26,4 +26,11 @@
       <value>Простая викторина</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="e48b1159-e9da-4d3c-a0e8-5c04399cc555">
+    <name>ТелеграмНаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телеграм наса</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

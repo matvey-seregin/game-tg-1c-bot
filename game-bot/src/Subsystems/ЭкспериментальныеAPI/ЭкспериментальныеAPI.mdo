@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b3435a1-0bff-4f1a-8b94-eba1f9981f82">
+  <name>ЭкспериментальныеAPI</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспериментальные API</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПолучениеСлучайногоФото</content>
+</mdclass:Subsystem>
