@@ -45,16 +45,19 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПростыеВикторины</subsystems>
+  <subsystems>Subsystem.ЭксперементальноеAPI</subsystems>
   <commonModules>CommonModule.ИнтеграцияТелеграм</commonModules>
   <commonModules>CommonModule.ИнтеграцияТелеграмПереопределяемый</commonModules>
   <commonModules>CommonModule.ИнтеграцияТелеграмСлужебный</commonModules>
   <commonModules>CommonModule.ИнтеграцияТелеграмСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СериализацияДанных</commonModules>
+  <commonModules>CommonModule.ТелеграммКартинка</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
   <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
   <constants>Constant.РежимРаботыБота</constants>
+  <constants>Constant.ТокенПолученияФотоСобаки</constants>
   <constants>Constant.ТокенТелеграмБота</constants>
   <catalogs>Catalog.ВопросыПростойВикторины</catalogs>
   <catalogs>Catalog.ОчередьОбработкиСообщений</catalogs>
@@ -62,4 +65,5 @@
   <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
   <enums>Enum.РежимРаботыБота</enums>
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеФотоСобаки</dataProcessors>
 </mdclass:Configuration>
