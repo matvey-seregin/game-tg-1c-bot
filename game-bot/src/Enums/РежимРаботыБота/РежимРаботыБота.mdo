@@ -26,4 +26,11 @@
       <value>Простая викторина</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="d5015726-652b-4b70-80dd-80c80c750e38">
+    <name>Собаки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собаки</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

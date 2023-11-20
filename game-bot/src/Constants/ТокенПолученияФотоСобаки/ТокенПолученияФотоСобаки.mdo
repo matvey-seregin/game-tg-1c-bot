@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1963d697-1451-4746-bd7d-35b1baa54ede">
+  <producedTypes>
+    <managerType typeId="ca355411-478d-46e3-92c2-3889acaaaf5e" valueTypeId="b027c3db-0c93-4f22-aa1d-4741a2b03f85"/>
+    <valueManagerType typeId="9c6d1f06-93c9-4df2-a779-3220f3f8e23c" valueTypeId="5459952b-5341-471c-96dc-763b83457842"/>
+    <valueKeyType typeId="25bb11ca-914b-4917-93ca-ac29d4fb2dee" valueTypeId="bd17236d-8b97-46d0-b0d5-c14d12f7fce6"/>
+  </producedTypes>
+  <name>ТокенПолученияФотоСобаки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Токен получения фото собаки</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
