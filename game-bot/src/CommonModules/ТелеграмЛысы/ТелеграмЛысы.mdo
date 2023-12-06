@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6cea2d0-c8de-4c93-a55a-806588e34246">
+  <name>ТелеграмЛысы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм лысы</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

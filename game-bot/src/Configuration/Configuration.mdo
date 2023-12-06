@@ -45,21 +45,35 @@
   </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПростыеВикторины</subsystems>
+  <subsystems>Subsystem.ЭкспериментальныеAPI</subsystems>
   <commonModules>CommonModule.ИнтеграцияТелеграм</commonModules>
   <commonModules>CommonModule.ИнтеграцияТелеграмПереопределяемый</commonModules>
   <commonModules>CommonModule.ИнтеграцияТелеграмСлужебный</commonModules>
   <commonModules>CommonModule.ИнтеграцияТелеграмСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.СериализацияДанных</commonModules>
+  <commonModules>CommonModule.ТелеграмКурсыВалют</commonModules>
+  <commonModules>CommonModule.ТелеграмЛысы</commonModules>
+  <commonModules>CommonModule.ТелеграмМарсКартинка</commonModules>
+  <commonModules>CommonModule.ТелеграмНаса</commonModules>
+  <commonModules>CommonModule.ТелеграмПогодаАрх</commonModules>
   <commonModules>CommonModule.ТелеграмПростаяВикторина</commonModules>
+  <commonModules>CommonModule.ТелеграмСлучайноеФото</commonModules>
   <commonModules>CommonModule.ТелеграмЭхо</commonModules>
+  <wsReferences>WSReference.DailyInfo</wsReferences>
   <constants>Constant.ИдентификаторПоследнегоОбновления</constants>
   <constants>Constant.РежимРаботыБота</constants>
+  <constants>Constant.ТокенСервисаПоискаФото</constants>
   <constants>Constant.ТокенТелеграмБота</constants>
   <catalogs>Catalog.ВопросыПростойВикторины</catalogs>
   <catalogs>Catalog.ОчередьОбработкиСообщений</catalogs>
   <catalogs>Catalog.ТелеграмЧаты</catalogs>
   <catalogs>Catalog.УчетныеЗаписиТелеграм</catalogs>
   <enums>Enum.РежимРаботыБота</enums>
+  <dataProcessors>DataProcessor.APIсЛисами</dataProcessors>
   <dataProcessors>DataProcessor.ОбработкаВходящихСообщений</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеПогоды</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеПогодыАрх</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеСлучайногоФото</dataProcessors>
+  <dataProcessors>DataProcessor.ПолучениеФотоНаса</dataProcessors>
 </mdclass:Configuration>
