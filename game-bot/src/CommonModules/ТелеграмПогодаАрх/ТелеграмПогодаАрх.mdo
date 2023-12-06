@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3234d67-6fd5-4c7c-8427-0f80a34088be">
+  <name>ТелеграмПогодаАрх</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм погода арх</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
