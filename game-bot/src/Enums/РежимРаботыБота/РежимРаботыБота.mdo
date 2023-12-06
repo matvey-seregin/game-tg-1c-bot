@@ -61,4 +61,11 @@
       <value>Наша прога марс</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="e2446eff-e738-482b-8b6f-3c5342ccaae3">
+    <name>ТелеграмЛысы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Телеграм лысы</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>

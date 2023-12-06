@@ -10,4 +10,5 @@
   <content>DataProcessor.ПолучениеСлучайногоФото</content>
   <content>DataProcessor.ПолучениеПогодыАрх</content>
   <content>DataProcessor.ПолучениеФотоНаса</content>
+  <content>DataProcessor.APIсЛисами</content>
 </mdclass:Subsystem>
