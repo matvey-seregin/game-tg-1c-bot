@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcf6d931-a310-4974-9925-5067726e0d56">
+  <producedTypes>
+    <objectType typeId="f711ac95-55cb-460c-9b4c-cefbd4af9315" valueTypeId="1c2ffd85-8093-4532-b903-25b9e25f03e2"/>
+    <refType typeId="cfd4595f-80d3-491d-a521-5308e14a585d" valueTypeId="1d109f5f-e6dc-4f3c-a5fc-db43376ac8b7"/>
+    <selectionType typeId="0f39cc77-d6d5-4c3d-81c0-6f504e03a3df" valueTypeId="a08c5082-9912-445e-b020-73b9bb189353"/>
+    <listType typeId="c62f31ae-2d4e-4c12-b80d-fef02cb3bbfd" valueTypeId="70c5b409-8fbb-4269-8df0-6e17fc078082"/>
+    <managerType typeId="ecae328a-b9c3-4a83-ad51-a541952f98b3" valueTypeId="f0f99c8a-cc5a-4aae-8658-f2e355303ca5"/>
+  </producedTypes>
+  <name>ВопросыТестаСРасшифровкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вопросы теста с расшифровкой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВопросыТестаСРасшифровкой.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВопросыТестаСРасшифровкой.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вопрос теста с расшифровкой</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВопросыТестаСРасшифровкой.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="e1a786e8-7256-40af-8846-cc1440398b53">
+    <name>ТекстВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст вопроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="601372f0-d753-458b-936f-ceeb51353c05">
+    <name>КоличествоОтветов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество ответов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f4ca7be0-9651-4920-a22e-210d7a069538">
+    <name>Активность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="50536fc6-2dbd-4b46-a520-2ba49d3a13b8">
+    <producedTypes>
+      <objectType typeId="c5cfa6f0-b073-4be6-b1a8-c54d8bca8fb5" valueTypeId="fd4385cd-073b-43aa-87fa-a1fa17b2ef1e"/>
+      <rowType typeId="187b95f3-35e1-4f2f-bd95-70f64eca8e5c" valueTypeId="1b17e2e8-16d3-4732-ba1e-c307fb2a1ed2"/>
+    </producedTypes>
+    <name>Ответы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответы</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="c694d712-9b93-478f-8932-fb1d847f599c">
+      <name>Баллы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Баллы</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="58964822-d0c3-4ed8-b0dc-48df28679309">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

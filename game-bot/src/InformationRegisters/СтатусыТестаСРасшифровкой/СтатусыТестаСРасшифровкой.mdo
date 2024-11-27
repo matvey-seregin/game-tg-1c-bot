@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="664e27af-c703-422a-8754-9b89343bcc19">
+  <producedTypes>
+    <selectionType typeId="b101e7ff-9645-4da2-85e2-f05014f2b301" valueTypeId="7a724aea-27d5-4e82-b0a2-db3978bb4d46"/>
+    <listType typeId="48afcf84-6d0b-4eda-be47-6f6e2ccf3685" valueTypeId="ecafe4bd-fdfe-4bf1-b80d-a8bdbb587344"/>
+    <managerType typeId="ef6efcb8-c421-4c12-aac0-a41164ff6fba" valueTypeId="9e7807a3-21a4-489d-973c-dcd88e352843"/>
+    <recordSetType typeId="3bace3f9-f850-4da7-af7f-f026b95d82a3" valueTypeId="51c93bba-a8d3-488d-8c5b-8633eb05899f"/>
+    <recordKeyType typeId="27782c6b-4e4f-489c-b277-00f7fa429178" valueTypeId="4a4f99ca-c74e-428e-9973-ef33de104a9a"/>
+    <recordType typeId="2ef3a8d0-082e-4c2f-bf02-a44bf59cc78f" valueTypeId="182cc3c1-1e84-47fa-a2d0-e33ff6967e39"/>
+    <recordManagerType typeId="b8f33eaa-bdcf-4051-90a8-7a755307d957" valueTypeId="10d74c08-6076-41e3-8692-27c1463da8f9"/>
+  </producedTypes>
+  <name>СтатусыТестаСРасшифровкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы теста с расшифровкой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Статус теста с расшифровкой</value>
+  </recordPresentation>
+  <resources uuid="c70ae3a0-6313-43af-84cb-d9593e2f267f">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыТестаСРасшифровкой</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a029b246-f442-4aca-ada7-3b4f2392a8c5">
+    <name>НомерВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер вопроса</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4f41fc8e-2653-44b0-a592-353afe989b77">
+    <name>Прохождение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прохождение</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ПрохождениеТестаСРасшифровкой</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9c57ba0c-1197-4df8-b9cd-409dbc2a9f56">
+    <name>УчетнаяЗапись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учетная запись</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиТелеграм</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

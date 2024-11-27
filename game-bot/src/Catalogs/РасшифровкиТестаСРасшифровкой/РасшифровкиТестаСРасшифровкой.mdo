@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="816149fc-5fcf-4855-a71a-80ae7c5acfa1">
+  <producedTypes>
+    <objectType typeId="7d9701b3-ed20-4895-8da1-6303c32f2e45" valueTypeId="1a5e5a55-5e09-46aa-b0a0-f61a394c3490"/>
+    <refType typeId="d0b9a8c2-9ae9-4435-9074-6684b2717684" valueTypeId="c95d4ef5-4771-4d81-84fd-84e52ec55195"/>
+    <selectionType typeId="7efa9e1f-5bd2-4bd5-8546-ff2f1a5f24a9" valueTypeId="64ac2007-0c69-4f59-b8bc-48bc393a15fd"/>
+    <listType typeId="26b9f21f-e539-4a4a-8f67-eb773fd836cf" valueTypeId="12e111f1-e09f-4939-9141-49e7d77ef880"/>
+    <managerType typeId="d8eb05c9-8b94-45fb-9651-ffc07df98d4a" valueTypeId="9415b2b8-bbe7-4466-ac29-25e25b7e8ffc"/>
+  </producedTypes>
+  <name>РасшифровкиТестаСРасшифровкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расшифровки теста с расшифровкой</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасшифровкиТестаСРасшифровкой.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РасшифровкиТестаСРасшифровкой.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Расшифровка теста с расшифровкой</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f43c4f34-936b-49dd-b8b8-4072dce311c7">
+    <name>НачалоДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало диапазона</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e6e08ffb-db3a-4354-835c-10b949737d4c">
+    <name>КонецДиапазона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец диапазона</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a5ec4c66-19b3-4477-99cd-3ef4af04d17d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

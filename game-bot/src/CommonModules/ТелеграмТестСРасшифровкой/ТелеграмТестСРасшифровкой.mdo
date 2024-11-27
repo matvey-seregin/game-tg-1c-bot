@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5a7c382-f4fd-4bf7-ba2b-9e5f54164f08">
+  <name>ТелеграмТестСРасшифровкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Телеграм тест с расшифровкой</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

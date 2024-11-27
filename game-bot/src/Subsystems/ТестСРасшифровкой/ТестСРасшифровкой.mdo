@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f9ac90b-00cd-44ef-ae16-1bb5715fae38">
+  <name>ТестСРасшифровкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тест с расшифровкой</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ОбщиеРекомендацииТестаСРасшифровкой</content>
+  <content>Constant.ПриветствиеТестаСРасшифровкой</content>
+  <content>Catalog.ВопросыТестаСРасшифровкой</content>
+  <content>Catalog.РасшифровкиТестаСРасшифровкой</content>
+  <content>Document.ПрохождениеТестаСРасшифровкой</content>
+  <content>Enum.СтатусыТестаСРасшифровкой</content>
+  <content>DataProcessor.НастройкаТестаСРасшифровкой</content>
+  <content>InformationRegister.СтатусыТестаСРасшифровкой</content>
+  <content>CommonModule.ТелеграмТестСРасшифровкой</content>
+</mdclass:Subsystem>

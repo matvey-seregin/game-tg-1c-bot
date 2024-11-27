@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0a92113-6b4b-4725-9cc3-154cb267d5f0">
+  <producedTypes>
+    <managerType typeId="926c58fd-ad74-44a2-ac26-0c283979d46d" valueTypeId="996b26bf-3329-45ff-b0b0-11eec79c58ae"/>
+    <valueManagerType typeId="373625b7-1616-4090-986b-63ee2d7f210a" valueTypeId="59dc893f-bf4f-45b3-a67d-a191c127199d"/>
+    <valueKeyType typeId="721fcc47-72d8-4637-b975-a453ceee154c" valueTypeId="f5d5d39f-3d3c-4e2c-9188-d8146ad3451e"/>
+  </producedTypes>
+  <name>ОбщиеРекомендацииТестаСРасшифровкой</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие рекомендации теста с расшифровкой</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
